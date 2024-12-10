@@ -1,0 +1,116 @@
+{
+    "name": "VisualNovelInput",
+    "maps": [
+        {
+            "name": "General",
+            "id": "5608a1da-6a2f-408a-9ad1-c6a66ee68912",
+            "actions": [
+                {
+                    "name": "Next",
+                    "type": "Button",
+                    "id": "dc102c5e-babe-413f-97ec-ec09cba6f9c9",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "HistoryBack",
+                    "type": "Button",
+                    "id": "de757064-b0e4-49ef-a68c-b83991ae78b6",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "HistoryForward",
+                    "type": "Button",
+                    "id": "3e53043a-979d-40c6-ab14-c81a94376c6b",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "HistoryLogs",
+                    "type": "Button",
+                    "id": "c33b5779-3688-4d73-9526-3689a730b3a4",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "2ec3bd42-cd1a-4b56-ba8d-d19f6131994f",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Next",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1f20ae48-e372-44af-be6f-48b5b5d8281c",
+                    "path": "<Keyboard>/enter",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Next",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "fb4b1d9c-89d0-4be5-81b6-fbdbbd6a38a3",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Next",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "565bf97d-894c-4ad6-b0fa-0236ab34c9fb",
+                    "path": "<Keyboard>/leftArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "HistoryBack",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7c8e7311-e062-4c17-9e85-758169544558",
+                    "path": "<Keyboard>/rightArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "HistoryForward",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "63980637-aaff-4334-b488-0b5eb8104030",
+                    "path": "<Keyboard>/quote",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "HistoryLogs",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

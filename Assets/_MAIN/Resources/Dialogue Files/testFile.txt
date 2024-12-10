@@ -1,0 +1,19 @@
+
+CreateCharacter(Mark), CreateCharacter(Baba), CreateCharacter(Raelin)
+PlaySong("Calm" -v 0.4)
+narrator "What is your name?"
+input "Type your name here"
+narrator "Hello <input>!"
+
+choice "Куда идем?"
+{
+    -В темный лес
+       Mark "Страшно но пошли"
+       Load(Forest -e true)
+    -В школу
+       Mark "Не хочу"
+       Load(Classroom -e true)
+}
+
+ClearLayerMedia(background)
+

@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d72e2cb7e81225a45a1ea9efcddd72da, type: 3}
+  m_Name: Character Configuration Asset
+  m_EditorClassIdentifier: 
+  characters:
+  - name: Mark
+    alias: m
+    characterType: 2
+    nameColor: {r: 0.3726415, g: 0.64773756, b: 1, a: 1}
+    dialogueColor: {r: 1, g: 1, b: 1, a: 1}
+    nameFont: {fileID: 11400000, guid: f658de8aae666ff47b147434a8c9a888, type: 2}
+    dialogueFont: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+    nameFontScale: 1
+    dialogueFontScale: 1
+    sprites:
+      _serializedList:
+      - Key: char_0
+        Value: {fileID: 363900926, guid: 5f47e6e93f0666e44ae6c3b81bcedab5, type: 3}
+      - Key: "\u043C\u0430\u0440\u043A5 \u0431\u0435\u0437 \u0444\u043E\u043D\u0430
+          \u0433\u0440\u0443\u0441\u0442\u043D\u044B\u0439kra"
+        Value: {fileID: 21300000, guid: ab63f348a3b80514b8ad360b3fe21362, type: 3}
+  - name: Baba
+    alias: b
+    characterType: 2
+    nameColor: {r: 0.5330188, g: 1, b: 0.6886792, a: 1}
+    dialogueColor: {r: 1, g: 1, b: 1, a: 1}
+    nameFont: {fileID: 11400000, guid: f658de8aae666ff47b147434a8c9a888, type: 2}
+    dialogueFont: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+    nameFontScale: 1
+    dialogueFontScale: 1
+    sprites:
+      _serializedList: []
+  - name: Raelin
+    alias: r
+    characterType: 2
+    nameColor: {r: 0.9245283, g: 0.64106447, b: 0.8424419, a: 1}
+    dialogueColor: {r: 1, g: 1, b: 1, a: 1}
+    nameFont: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+    dialogueFont: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+    nameFontScale: 1
+    dialogueFontScale: 1
+    sprites:
+      _serializedList: []
+  - name: Koharu
+    alias: k
+    characterType: 3
+    nameColor: {r: 0.70980394, g: 0.8313726, b: 0.39607847, a: 1}
+    dialogueColor: {r: 1, g: 1, b: 1, a: 1}
+    nameFont: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+    dialogueFont: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+    nameFontScale: 1
+    dialogueFontScale: 1
+    sprites:
+      _serializedList: []

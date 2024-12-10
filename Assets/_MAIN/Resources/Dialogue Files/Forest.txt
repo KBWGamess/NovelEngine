@@ -1,0 +1,4 @@
+CreateCharacter(Mark), CreateCharacter(Baba), CreateCharacter(Raelin)
+
+SetLayerMedia(background Forest_night)
+Mark "Ебать страшно"

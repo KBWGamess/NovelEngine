@@ -1,0 +1,4 @@
+CreateCharacter(Mark), CreateCharacter(Baba), CreateCharacter(Raelin)
+
+SetLayerMedia(background -m 04)
+Mark "Школа Школа Школа"
